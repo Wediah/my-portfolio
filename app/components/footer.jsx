@@ -8,11 +8,11 @@ function Footer() {
         <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700"></hr>
 
         <div className='flex justify-between items-center h-full'>
-            <span>
+            <span className='font-thin'>
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
-                <p className='text-xs font-thin font-mono'>
+                <p className='text-sm font-thin pl-4 '>
                     Source code: 
-                    <a href="https://github.com/Wediah/my-portfolio">
+                    <a className='hover:underline' href="https://github.com/Wediah/my-portfolio">
                         /github.com/Wediah/my-portfolio
                     </a>
                     </p>
