@@ -12,7 +12,7 @@ function Footer() {
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
                 <p className='text-sm font-thin pl-4 '>
                     Source code: 
-                    <a className='hover:underline' href="https://github.com/Wediah/my-portfolio">
+                    <a className='hover:underline pl-2' href="https://github.com/Wediah/my-portfolio">
                         /github.com/Wediah/my-portfolio
                     </a>
                     </p>
