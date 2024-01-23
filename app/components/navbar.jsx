@@ -7,7 +7,7 @@ import logo from '/public/logo.svg'
 function Navbar() {
   return (
     <>
-      <div className="w-full h-20 bg-transparent">
+      <div className="w-full h-20 bg-transparent fixed">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <ul className="hidden md:flex gap-x-6 text-white">
