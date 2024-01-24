@@ -1,21 +1,18 @@
-"use client"
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '/public/logo.svg'
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/router'
+
 
 function Navbar() {
-
-    const router = useRouter()
-
   return (
     <>
       <div className="w-full z-20 h-20 bg-transparent sticky">
         <div className="container mx-auto px-4 md:px-16 h-full">
           <div className="flex justify-between items-center h-full">
             <ul className="hidden md:flex gap-x-4 font-medium text-black dark:text-white relative z-0">
-                <li className={`p-1 rounded-md hover:bg-gray-200 active:text-yellow-200 flex-1 ${router.pathname === '/' ? 'bg-gray-200' : ''}`}>
+                <li className='active:bg-gray-200 focus:bg-gray-200 hover:bg-gray-200 p-1 rounded-md flex-1'>
                     <Link href="/">
                         <p>Home</p>
                     </Link>
