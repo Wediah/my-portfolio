@@ -8,9 +8,11 @@ function Footer() {
         <hr class="h-px my-4 bg-black border-0 dark:bg-white"></hr>
 
         <div className='flex justify-between items-center h-full'>
-            <span className='font-thin text-md text-black dark:text-white'>
+        <Image src={logo2} alt="logo" width={50} height={50} />
+
+            <span className=' text-md text-black dark:text-white'>
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
-                <p className='text-sm font-thin pl-4 '>
+                <p className='text-sm font-mono text-right'>
                     Source code: 
                     <a className='underline pl-1' href="https://github.com/Wediah/my-portfolio">
                         /github.com/Wediah/my-portfolio
@@ -18,7 +20,7 @@ function Footer() {
                     </p>
             </span>
 
-            <Image src={logo2} alt="logo" width={50} height={50} />
+            
         </div>
     </div>
   )
