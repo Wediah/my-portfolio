@@ -13,7 +13,7 @@ function Navbar() {
           <div className="flex justify-between items-center h-full">
             <ul className="hidden md:flex gap-x-4 font-medium text-black dark:text-white relative z-0">
                 <li className='active:bg-gray-200 focus:bg-gray-200 hover:bg-gray-200 hover:text-black p-1 rounded-md flex-1'>
-                    <Link href="/">
+                    <Link href="/page">
                         <p>Home</p>
                     </Link>
                 </li>
