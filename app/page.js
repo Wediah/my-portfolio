@@ -3,8 +3,9 @@ import { PiHandWavingLight } from "react-icons/pi";
 import { LuGithub } from "react-icons/lu";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { RiTwitterXLine } from "react-icons/ri";
-import { SiGmail } from "react-icons/si";
 import { IoLogoInstagram } from "react-icons/io";
+import { IoMailOutline } from "react-icons/io5";
+
 
 
 export default function Home() {
@@ -19,10 +20,21 @@ export default function Home() {
           On this website, you'll find my projects, blog posts and more.
         </p>
         <div className="flex flex-row gap-2">
-          <LuGithub className="text-2xl text-gray-500 hover:text-gray-700" />
-          <AiOutlineLinkedin className="text-2xl text-gray-500 hover:text-gray-700" />
-          <RiTwitterXLine className="text-2xl text-gray-500 hover:text-gray-700" />
-          <IoLogoInstagram className="text-2xl text-gray-500 hover:text-gray-700" />
+          <a href="https://github.com/Wediah">
+            <LuGithub className="text-2xl text-gray-500 hover:text-gray-700" />
+          </a>
+          <a href="https://www.linkedin.com/in/wediah-emmanuel-578330230">
+            <AiOutlineLinkedin className="text-2xl text-gray-500 hover:text-gray-700" />
+          </a>
+          <a href="https://twitter.com/WediahE">
+            <RiTwitterXLine className="text-2xl text-gray-500 hover:text-gray-700" />
+          </a>
+          <a href="https://www.instagram.com/_wediah/">
+            <IoLogoInstagram className="text-2xl text-gray-500 hover:text-gray-700" />
+          </a>
+          <a href="mailto:emmanuelwediah@gmail.com">
+            <IoMailOutline className="text-2xl text-gray-500 hover:text-gray-700" />
+          </a>
         </div>
       </div>
     </main>
