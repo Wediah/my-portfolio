@@ -16,19 +16,25 @@ function Footer() {
 
             <span className=' text-md text-black dark:text-white'>
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
-                <div className='flex flex-row gap-2'>
+                <div className='flex flex-row gap-2 right-0 bottom-0'>
+                  <a href="">
                   <button className='items-center flex gap-1 dark:bg-gray-900 bg-gray-200 rounded-md p-1'>
                       Source code
                       <LuGithub />
                   </button>
+                  </a>
+                  <a href="">
                   <button className='items-center flex gap-1 dark:bg-gray-900 bg-gray-200 rounded-md p-1'>
                       JPEGs
                       <PiImages />
                   </button>
+                  </a>
+                  <a href="">
                   <button className='items-center flex gap-1 dark:bg-gray-900 bg-gray-200 rounded-md p-1'>
                       Quotes
                       <BsChatSquareQuote />
                   </button>
+                  </a>
                 </div>
             </span>
 
