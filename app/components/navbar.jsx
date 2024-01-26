@@ -21,8 +21,8 @@ function Navbar() {
                         <p>Home</p>
                     </Link>
                 </li>
-                <li className='active:bg-gray-200 focus:bg-gray-200 hover:bg-gray-200 hover:text-black p-1 rounded-md flex-1'>
-                    <Link href="/about">
+                <li className='hover:bg-gray-200 hover:text-black p-1 rounded-md flex-1'>
+                    <Link className={`link ${pathname === '/about' ? 'active' : 'bg-blue-200'}`} href="/about">
                         <p>About</p>
                     </Link>
                 </li>
