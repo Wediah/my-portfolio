@@ -11,7 +11,7 @@ function Footer() {
     <div className='container mx-auto px-4 md:px-16 h-full pb-4'>
         <hr class="h-px my-4 bg-black border-0 dark:bg-white decoration-wavy"></hr>
 
-        <div className='flex-col md:flex-row flex md:justify-between items-center h-full'>
+        <div className='flex-col md:flex-row flex md:justify-between md:items-center h-full gap-2'>
         <Image src={logo2} alt="logo" width={50} height={50} />
 
             <span className='text-sm md:text-md text-black dark:text-white'>
