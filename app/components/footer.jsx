@@ -20,7 +20,7 @@ function Footer() {
 
             <span className='text-sm md:text-md text-black dark:text-white'>
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
-                <div className='flex flex-row gap-2 md:pl-12'>
+                <div className='flex flex-row gap-2 md:pl-10'>
                   <a href="https://github.com/Wediah/my-portfolio">
                   <button className='items-center flex gap-1 dark:bg-gray-900 bg-gray-200 rounded-md p-1'>
                       Source code
