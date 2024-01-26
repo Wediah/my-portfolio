@@ -17,22 +17,22 @@ function Navbar() {
         <div className="container mx-auto px-4 md:px-16 h-full">
           <div className="flex justify-between items-center h-full">
             <ul className="hidden md:flex gap-x-4 font-medium text-black dark:text-white relative z-0">
-                <li className='hover:bg-gray-200 hover:text-black p-1 rounded-md flex-1'>
+                <li className='hover:bg-gray-200 hover:dark:text-white hover:dark:bg-gray-900 p-1 rounded-md flex-1'>
                     <Link className={`link ${pathname === '/' ? 'active' : 'bg-gray-200'}`} href="/">
                         <p>Home</p>
                     </Link>
                 </li>
-                <li className='hover:bg-gray-200 hover:text-black p-1 rounded-md flex-1'>
+                <li className='hover:bg-gray-200 hover:dark:text-white hover:dark:bg-gray-900  p-1 rounded-md flex-1'>
                     <Link className={`link ${pathname === '/about' ? 'active' : 'bg-blue-200'}`} href="/about">
                         <p>About</p>
                     </Link>
                 </li>
-                <li className='active:bg-gray-200 focus:bg-gray-200 hover:bg-gray-200 hover:text-black p-1 rounded-md flex-1'>
+                <li className='active:bg-gray-200 focus:bg-gray-200 hover:bg-gray-200 hover:dark:text-white hover:dark:bg-gray-900 p-1 rounded-md flex-1'>
                     <Link href="/projects">
                         <p>Projects</p>
                     </Link>
                 </li>
-                <li className='active:bg-gray-200 focus:bg-gray-200 hover:bg-gray-200 hover:text-black p-1 rounded-md flex-1'>
+                <li className='active:bg-gray-200 focus:bg-gray-200 hover:bg-gray-200 hover:dark:text-white hover:dark:bg-gray-900 p-1 rounded-md flex-1'>
                     <Link href="/blog">
                         <p>Blog</p>
                     </Link>
