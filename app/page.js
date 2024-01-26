@@ -36,6 +36,10 @@ export default function Home() {
             <IoMailOutline className="text-2xl text-gray-500 hover:text-gray-700" />
           </a>
         </div>
+
+        <div>
+          <h1 className="text-4xl font-bold text-gray-700">Featured Projects</h1>
+        </div>
       </div>
     </main>
   );
