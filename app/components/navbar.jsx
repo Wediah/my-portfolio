@@ -107,7 +107,7 @@ function Navbar() {
                     <div className="md:hidden" id="mobile-menu">
                         <div
                             ref={ref}
-                            className="bg-gray-200 px-2 pt-2 pb-3 space-y-12 sm:px-3 dark:bg-gray-900 h-screen"
+                            className="bg-gray-200 px-2 pt-6 pb-3 space-y-12 sm:px-3 dark:bg-gray-900 h-screen"
                         >   
                             
                             <Link
