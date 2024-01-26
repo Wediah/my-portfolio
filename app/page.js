@@ -13,7 +13,7 @@ export default function Home() {
     <main className="flex min-h-screen px-4 md:px-16 container mx-auto ">
       <div className="md:pt-40">
         <button className="flex items-center gap-1 bg-green-600 rounded-md p-1">
-          <PiHandWavingLight className="text-white text-md"/> Welcome to my website. 
+          <PiHandWavingLight className="text-white font-medium text-md"/> Welcome to my website. 
         </button>
         <p className="pt-5 text-md">
           I'm Wediah Emmanuel. A Software Engineer from Ghana. <br />
@@ -37,8 +37,8 @@ export default function Home() {
           </a>
         </div>
 
-        <div>
-          <h1 className="text-4xl font-bold text-gray-700">Featured Projects</h1>
+        <div className="md:pt-32">
+          <h1 className="text-2xl font-medium text-gray-700">Featured Projects</h1>
         </div>
       </div>
     </main>
