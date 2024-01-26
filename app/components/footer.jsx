@@ -12,7 +12,7 @@ function Footer() {
         <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-white "></hr>
 
         <div className='flex-col md:flex-row flex md:justify-between md:items-center h-full gap-2'>
-        <Image src={logo2} alt="logo" width={50} height={50} />
+          <Image src={logo2} alt="logo" width={50} height={50} />
 
             <span className='text-sm md:text-md text-black dark:text-white'>
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
@@ -38,7 +38,9 @@ function Footer() {
                 </div>
             </span>
 
+          <button className='text-white'>
             
+          </button> 
         </div>
     </div>
   )
