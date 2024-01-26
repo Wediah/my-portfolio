@@ -2,6 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import logo2 from '/public/logo2.svg'
 import { LuGithub } from "react-icons/lu";
+import { PiImages } from "react-icons/pi";
+import { BsChatSquareQuote } from "react-icons/bs";
+
 
 function Footer() {
   return (
@@ -13,10 +16,20 @@ function Footer() {
 
             <span className=' text-md text-black dark:text-white'>
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
-                <p className='text-sm font-mono right-0  items-center flex gap-1'>
-                    Source code
-                    <LuGithub />
-                </p>
+                <div className='flex flex-row gap-2'>
+                  <button className='items-center flex gap-1 dark:bg-gray-900 bg-gray-200 rounded-md p-1'>
+                      Source code
+                      <LuGithub />
+                  </button>
+                  <button className='items-center flex gap-1 dark:bg-gray-900 bg-gray-200 rounded-md p-1'>
+                      JPEGs
+                      <PiImages />
+                  </button>
+                  <button className='items-center flex gap-1 dark:bg-gray-900 bg-gray-200 rounded-md p-1'>
+                      Quotes
+                      <BsChatSquareQuote />
+                  </button>
+                </div>
             </span>
 
             
