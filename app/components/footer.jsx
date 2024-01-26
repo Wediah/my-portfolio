@@ -11,12 +11,12 @@ function Footer() {
     <div className='container mx-auto px-4 md:px-16 h-full pb-4'>
         <hr class="h-px my-4 bg-black border-0 dark:bg-white decoration-wavy"></hr>
 
-        <div className='flex justify-between items-center h-full'>
+        <div className='flex-col md:flex-row flex md:justify-between items-center h-full'>
         <Image src={logo2} alt="logo" width={50} height={50} />
 
-            <span className=' text-md text-black dark:text-white'>
+            <span className='text-sm md:text-md text-black dark:text-white'>
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
-                <div className='flex flex-row gap-2 right-0 bottom-0'>
+                <div className='flex flex-row gap-2 md:pl-12'>
                   <a href="https://github.com/Wediah/my-portfolio">
                   <button className='items-center flex gap-1 dark:bg-gray-900 bg-gray-200 rounded-md p-1'>
                       Source code
