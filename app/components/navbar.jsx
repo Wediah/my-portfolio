@@ -41,7 +41,7 @@ function Navbar() {
 
             
 
-            <Image src={logo} alt="logo" width={60} height={60} />
+            <Image className='' src={logo} alt="logo" width={60} height={60} />
             
           </div>
         </div>
