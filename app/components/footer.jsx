@@ -1,12 +1,16 @@
-import React from 'react'
+'use client'
+import React, { useState} from 'react'
 import Image from 'next/image'
 import logo2 from '/public/logo2.svg'
 import { LuGithub } from "react-icons/lu";
 import { PiImages } from "react-icons/pi";
 import { BsChatSquareQuote } from "react-icons/bs";
+import { Transition } from '@headlessui/react'
 
 
 function Footer() {
+  
+
   return (
     <div className='container mx-auto px-4 md:px-16 h-full pb-4'>
         <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-white "></hr>
@@ -38,10 +42,10 @@ function Footer() {
                 </div>
             </span>
 
-          <button className='text-white'>
             
-          </button> 
         </div>
+
+        
     </div>
   )
 }
