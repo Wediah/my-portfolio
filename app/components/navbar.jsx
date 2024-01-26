@@ -92,7 +92,9 @@ function Navbar() {
                     </div>
             
           </div>
-          <Transition
+         
+        </div>
+        <Transition
                 show={isOpen}
                 enter="transition ease-out duration-100 transform"
                 enterFrom="opacity-0 scale-95"
@@ -109,24 +111,28 @@ function Navbar() {
                         >   
                             
                             <Link
+                            onClick={() => setIsOpen(!isOpen)}
                                 href="/"
                                 className="cursor-pointer hover:text-yellow-300 text-black block px-3 py-2 rounded-md  font-bold text-left dark:text-white text-6xl"
                             >
                                 Home
                             </Link>
                             <Link
+                            onClick={() => setIsOpen(!isOpen)}
                                 href="/about"
                                 className="cursor-pointer hover:text-yellow-300 text-black block px-3 py-2 rounded-md  font-bold text-left dark:text-white text-6xl"
                             >
                                 About
                             </Link>
                             <Link
+                            onClick={() => setIsOpen(!isOpen)}
                                 href="/projects"
                                 className="cursor-pointer hover:text-yellow-300 text-black block px-3 py-2 rounded-md  font-bold text-left dark:text-white text-6xl"
                             >
                                 Projects
                             </Link>
                             <Link
+                            onClick={() => setIsOpen(!isOpen)}
                                 href="/blog"
                                 className="cursor-pointer hover:text-yellow-300 text-black block px-3 py-2 rounded-md  font-bold text-left dark:text-white text-6xl"
                             >
@@ -138,7 +144,6 @@ function Navbar() {
                     </div>
                 )}
             </Transition>
-        </div>
       </div>
     </>
   )
