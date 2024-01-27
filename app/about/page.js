@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className="min-h-screen px-4 md:px-16 container mx-auto">
+    <div className="min-h-screen px-4 md:px-32 container mx-auto">
       <p>
         Get to know me
       </p>
