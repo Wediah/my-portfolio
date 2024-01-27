@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <>
       <div className="w-full z-20 h-20 bg-transparent sticky">
-        <div className="container mx-auto px-4 md:px-16 h-full">
+        <div className="container mx-auto px-4 md:px-32 h-full">
           <div className="flex justify-between items-center h-full">
             <ul className="hidden md:flex gap-x-4 font-medium text-black dark:text-white relative z-0">
                 <li className='hover:bg-gray-200 hover:dark:text-white hover:dark:bg-gray-900 p-1 rounded-md flex-1'>
