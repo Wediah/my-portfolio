@@ -4,7 +4,7 @@ function page() {
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
       <div className='md:pt-40 pt-32'>
-      <p className='font-medium dark:text-gray-400 text-gray-200'>
+      <p className='font-medium  text-orange-500'>
         Get to know me
       </p>
       <p className='pt-5'>
