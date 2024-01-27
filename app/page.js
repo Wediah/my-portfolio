@@ -11,7 +11,7 @@ import { IoMailOutline } from "react-icons/io5";
 export default function Home() {
   return (
     <main className="flex min-h-screen px-4 md:px-16 container mx-auto ">
-      <div className="md:pt-40">
+      <div className="md:pt-40 pt-32">
         <button className="flex items-center gap-1 bg-green-600 rounded-md p-1">
           <PiHandWavingLight className="text-white font-medium text-md"/> Welcome to my website. 
         </button>
@@ -37,7 +37,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="md:pt-32">
+        <div className="md:pt-32 pt-28">
           <h1 className="text-2xl font-medium text-gray-700">Featured Projects</h1>
         </div>
       </div>
