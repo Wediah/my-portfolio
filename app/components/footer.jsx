@@ -12,7 +12,7 @@ function Footer() {
   
 
   return (
-    <div className='container mx-auto px-4 md:px-16 h-full pb-4'>
+    <div className='container mx-auto px-4 md:px-32 h-full pb-4'>
         <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-white "></hr>
 
         <div className='flex-col md:flex-row flex md:justify-between md:items-center h-full gap-2'>
