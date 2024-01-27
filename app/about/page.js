@@ -1,4 +1,13 @@
 import React from 'react'
+import {
+  Timeline,
+  TimelineItem,
+  TimelineConnector,
+  TimelineHeader,
+  TimelineIcon,
+  TimelineBody,
+  Typography,
+} from "@material-tailwind/react";
 
 function page() {
   return (
