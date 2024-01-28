@@ -19,8 +19,8 @@ function page() {
 
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
-      <div className='md:pt-40 pt-32'>
-      <h1 className='font-medium  text-gray-200 dark:text-gray-500'>
+      <div className='md:pt-32 pt-28'>
+      <h1 className='font-medium  text-gray-400 dark:text-gray-500'>
         Get to know me
       </h1>
       <p className='pt-5 w-9/12'>
@@ -32,7 +32,7 @@ function page() {
       </div>
 
       <div className='pt-10 w-9/12'>
-        <h1 className='font-medium text-gray-200 dark:text-gray-500'>My experiences</h1>
+        <h1 className='font-medium text-gray-400 dark:text-gray-500'>My experiences</h1>
         
         <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-5 mb-12">                  
             <li class="mb-10 ms-4">
