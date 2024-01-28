@@ -2,6 +2,21 @@ import React from 'react'
 
 
 function page() {
+
+  const onButtonClick = () => {
+    fetch('WediahEmmanuelresume.docx').then(response => {
+        response.blob().then(blob => {
+
+            const fileURL = window.URL.createObjectURL(blob);
+
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'WediahEmmanuelresume.docx';
+            alink.click();
+        })
+    })
+}
+
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
       <div className='md:pt-40 pt-32'>
@@ -60,7 +75,7 @@ function page() {
             </li>
         </ol>
 
-        
+
 
 
       </div>
