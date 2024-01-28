@@ -75,7 +75,7 @@ function page() {
             </li>
         </ol>
 
-        <a className='text-orange-500 text-md font-medium' onClick={onButtonClick}>There is more about my experiences here.</a>
+        <p className='text-orange-500 text-md font-medium' >There is more about my experiences here.</p>
 
 
       </div>
