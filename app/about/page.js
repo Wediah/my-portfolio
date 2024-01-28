@@ -19,48 +19,48 @@ function page() {
       <div className='pt-10 w-9/12'>
         <h1 className='font-medium text-gray-200 dark:text-gray-500'>My experiences</h1>
         
-<ol class="relative border-s border-gray-200 dark:border-gray-700 mt-5 mb-12">                  
-    <li class="mb-10 ms-4">
-        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Nov. 2023 - Present</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Freelance Frontend Developer </h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Helping brands and individuals enhance their online presence by developing user-friendly and visual appealing websites. </p>
-        <div className='flex flex-row gap-3'>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">React</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Next.js</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Tailwind CSS</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Figma</button>
-        </div>
-    </li>
-    <li class="mb-10 ms-4">
-        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sept. 2023 - Oct. 2023</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Backend Engineer Intern - <a className='text-orange-500' href='https://www.linkedin.com/company/itspoynt/'>Poynt Technologies Limited</a></h3>
-        <p class=" mb-4 text-base font-normal text-gray-500 dark:text-gray-400">At Poynt, I became involved with backend development with PHP and Laravel. I learnt how to make restful API's and improve some soft skills with the help of amazing people like <a className='text-orange-500' href='https://www.linkedin.com/in/sadat-kollan'>Hillary Kollan</a> and <a className='text-orange-500' href='https://www.linkedin.com/in/el-karece-asiedu'>El-Karece Asiedu</a> as well as the whole team at Poynt.</p>
-        <div className='flex flex-row gap-3'>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">PHP</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Laravel</button>
-        </div>
-    </li>
-    <li class="ms-4">
-        <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct. 2023 - Nov. 2023</time>
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Frontend Engineer Intern - <a className='text-orange-500' href='https://insti.csir.org.gh/'>CSIR - insti</a></h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">At CSIR - INSTI, I got to understand how the working environment outside school felt like. And also learn the basics of frontend engineering with the help of <a className='text-orange-500' href='https://www.linkedin.com/in/johnawotwi'>John Awotwi</a></p>
-        <div className='flex flex-row gap-3'>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">HTML</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">CSS</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">JavaScript</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">JQery</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">React</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Next.js</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Tailwind CSS</button>
-          <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Figma</button>
-        </div>
-    </li>
-</ol>
+        <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-5 mb-12">                  
+            <li class="mb-10 ms-4">
+                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Nov. 2023 - Present</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Freelance Frontend Developer </h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Helping brands and individuals enhance their online presence by developing user-friendly and visual appealing websites. </p>
+                <div className='flex flex-row gap-3'>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">React</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Next.js</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Tailwind CSS</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Figma</button>
+                </div>
+            </li>
+            <li class="mb-10 ms-4">
+                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sept. 2023 - Oct. 2023</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Backend Engineer Intern - <a className='text-orange-500' href='https://www.linkedin.com/company/itspoynt/'>Poynt Technologies Limited</a></h3>
+                <p class=" mb-4 text-base font-normal text-gray-500 dark:text-gray-400">At Poynt, I became involved with backend development with PHP and Laravel. I learnt how to make restful API's and improve some soft skills with the help of amazing people like <a className='text-orange-500' href='https://www.linkedin.com/in/sadat-kollan'>Hillary Kollan</a> and <a className='text-orange-500' href='https://www.linkedin.com/in/el-karece-asiedu'>El-Karece Asiedu</a> as well as the whole team at Poynt.</p>
+                <div className='flex flex-row gap-3'>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">PHP</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Laravel</button>
+                </div>
+            </li>
+            <li class="ms-4">
+                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct. 2023 - Nov. 2023</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Frontend Engineer Intern - <a className='text-orange-500' href='https://insti.csir.org.gh/'>CSIR - insti</a></h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">At CSIR - INSTI, I got to understand how the working environment outside school felt like. And also learn the basics of frontend engineering with the help of <a className='text-orange-500' href='https://www.linkedin.com/in/johnawotwi'>John Awotwi</a></p>
+                <div className='flex flex-row gap-3'>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">HTML</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">CSS</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">JavaScript</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">JQery</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">React</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Next.js</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Tailwind CSS</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Figma</button>
+                </div>
+            </li>
+        </ol>
 
-
+        
 
 
       </div>
