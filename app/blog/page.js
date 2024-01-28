@@ -1,7 +1,7 @@
 import react from "react";
 
 
-export default function Blog() {
+export default function page() {
   return (
     <main className="flex min-h-screen px-4 md:px-32 container mx-auto ">
       <div className="md:pt-32 pt-28">
