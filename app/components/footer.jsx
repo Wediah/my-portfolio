@@ -1,7 +1,7 @@
 'use client'
 import React, { useState} from 'react'
 import Image from 'next/image'
-import logo2 from '/public/logo2.svg'
+import logo from '/public/logo.svg'
 import { LuGithub } from "react-icons/lu";
 import { PiImages } from "react-icons/pi";
 import { BsChatSquareQuote } from "react-icons/bs";
@@ -16,7 +16,7 @@ function Footer() {
         <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-white "></hr>
 
         <div className='flex-col md:flex-row flex md:justify-between md:items-center h-full gap-2'>
-          <Image src={logo2} alt="logo" width={50} height={50} />
+          <Image src={logo} alt="logo" width={50} height={50} />
 
             <span className='text-sm md:text-md text-black dark:text-white'>
                 ©2024 Emmanuel Wediah. All rights reserved. <br />
