@@ -1,4 +1,6 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useState } from 'react'
+
 
 function page() {
   return (
@@ -7,6 +9,10 @@ function page() {
             <h1 className='font-medium  text-gray-400 dark:text-gray-500'>
                 Projects I've worked on
             </h1>
+
+            <div className=''>
+
+            </div>
         </div>
     </div>
   )
