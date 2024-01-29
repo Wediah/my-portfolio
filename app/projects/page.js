@@ -1,8 +1,8 @@
 'use client'
 import React, { useEffect, useState } from 'react'
+import { createClient } from 'next-sanity'
 
-
-function page() {
+function page({ projects }) {
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
         <div className='md:pt-32 pt-28'>
