@@ -1,6 +1,7 @@
-'use client'
-import React, { useEffect, useState } from 'react'
-import client from '../../client'
+// 'use client'
+import React from 'react'
+import { ImageUrlBuilder } from 'sanity';
+import client from '/sanity/lib/client.ts'
 
 async function page() {
 
