@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-
+import client from '../../client'
 
 function page({ projects }) {
   return (
