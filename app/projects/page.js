@@ -2,7 +2,12 @@
 import React, { useEffect, useState } from 'react'
 import client from '../../client'
 
-function page({ projects }) {
+async function page() {
+
+  const projects = await client.fetch(`*[_type == "project"]{
+    title, slug, description, tags, link, image
+  }`)
+  console.log(projects);
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
         <div className='md:pt-32 pt-28'>
