@@ -29,7 +29,7 @@ function page() {
          <br/> I hope to learn more about artificial intelligence and machine learning in the future. Aside from programming, I enjoy <a className='text-orange-500' href='/jpegs'>photography</a> and <a className='text-orange-500' href='https://open.spotify.com/show/05qwLlxgmpwf2R9mvkuNSp?si=d93ea9532ed24c3d'>editing podcasts</a>.  
 
          <br/><br/>
-         Finally, brethren, whatever things are true, whatever things are noble, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report, if there is any virtue and if there is anything praiseworthy—meditate on these things. <a>Philippians 4:8 NKJV</a> - this is my modus operandi.
+         Finally, brethren, whatever things are true, whatever things are noble, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report, if there is any virtue and if there is anything praiseworthy—meditate on these things. <a className='text-orange-500'>Philippians 4:8 NKJV</a> - this is my modus operandi.
 
 
 
