@@ -27,6 +27,12 @@ function page() {
         Hello, I'm Emmanuel Wediah, a final year student at <a className='text-orange-500' href='https://atu.edu.gh/'>Accra Technical Universtity</a> studing Computer Science. Currently, my main focus is frontend web development as well as backend development with Laravel and PHP. <br/>
         <br/> I'm also a member of the <a className='text-orange-500' href='https://gdsc.community.dev/accra-technical-university/'>Google Developers Student Club (GDSC)</a> at my school, where I help organize events and workshops for students to learn about Google technologies.<br/>
          <br/> I hope to learn more about artificial intelligence and machine learning in the future. Aside from programming, I enjoy <a className='text-orange-500' href='/jpegs'>photography</a> and <a className='text-orange-500' href='https://open.spotify.com/show/05qwLlxgmpwf2R9mvkuNSp?si=d93ea9532ed24c3d'>editing podcasts</a>.  
+
+         <br/><br/>
+         Finally, brethren, whatever things are true, whatever things are noble, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report, if there is any virtue and if there is anything praiseworthy—meditate on these things. <a>Philippians 4:8 NKJV</a> - this is my modus operandi.
+
+
+
       </p>
 
       </div>
