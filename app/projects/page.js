@@ -6,11 +6,11 @@ import client from '/sanity/lib/client.ts'
 
 async function page() {
 
-  // const projects = await client.fetch(`*[_type == "project"]{
-  //   title, description, link, image
-  // }`)
+  const projects = await client.fetch(`*[_type == "project"]{
+    title, description, link, image
+  }`)
 
-  //console.log(projects);
+  console.log(projects);
 
 
   return (
