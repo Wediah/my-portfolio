@@ -1,16 +1,12 @@
 // 'use client'
 import React from 'react'
 import { ImageUrlBuilder } from 'sanity';
-import client from '/sanity/lib/client.ts'
+//import client from '/sanity/lib/client.ts'
+import { getAllProjects } from '../../sanity/sanity.query';
 
 
-async function page() {
-
-  const projects = await client.fetch(`*[_type == "project"]{
-    title, description, link, image
-  }`)
-
-  console.log(projects);
+export default async function page() {
+    const projects = await getAllProjects();
 
 
   return (
@@ -21,30 +17,10 @@ async function page() {
             </h1>
 
             <div className=''>
-                {projects.map((project, index) => (
-                    <div className='md:py-16 py-10' key={index}>
-                        <div className='md:flex md:justify-between'>
-                            <div className='md:w-1/2'>
-                                <h1 className='text-3xl font-medium text-gray-800 dark:text-gray-100'>
-                                    {project.title}
-                                </h1>
-                                <p className='text-gray-400 dark:text-gray-500'>
-                                    {project.description}
-                                </p>
-                                <a href={project.link} target='_blank' className='text-blue-500 dark:text-blue-400'>
-                                    {project.link}
-                                </a>
-                            </div>
-                            <div className='md:w-1/2 md:mt-0 mt-10'>
-                                <img src={project.image} alt="" className='rounded-lg' />
-                            </div>
-                        </div>
-                    </div>
-                ))}
+                
             </div>
         </div>
     </div>
   )
 }
 
-export default page
