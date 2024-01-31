@@ -20,7 +20,7 @@ async function page() {
                 Projects I've worked on
             </h1>
 
-            {/* <div className=''>
+            <div className=''>
                 {projects.map((project, index) => (
                     <div className='md:py-16 py-10' key={index}>
                         <div className='md:flex md:justify-between'>
@@ -41,7 +41,7 @@ async function page() {
                         </div>
                     </div>
                 ))}
-            </div> */}
+            </div>
         </div>
     </div>
   )
