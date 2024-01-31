@@ -1,4 +1,4 @@
-// 'use client'
+'use client'
 import React from 'react'
 import { ImageUrlBuilder } from 'sanity';
 //import client from '/sanity/lib/client.ts'
@@ -7,6 +7,8 @@ import { getAllProjects } from '../../sanity/sanity.query';
 
 export default async function page() {
     const projects = await getAllProjects();
+
+    console.log(projects);
 
 
   return (
@@ -17,7 +19,14 @@ export default async function page() {
             </h1>
 
             <div className=''>
-                
+                { projects && projects.map((project) => {
+                    return (
+                        <div className='mt-10'>
+                            <h1>{project.title}</h1>
+                        </div>
+                    )
+                })
+                }  
             </div>
         </div>
     </div>
