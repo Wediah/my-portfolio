@@ -17,7 +17,7 @@ export default async function page() {
             <h1 className='font-medium  text-gray-400 dark:text-gray-500'>
                 Projects I've worked on
             </h1>
-            <p></p>
+            <p>This is where you can find projects I'm working on or have completed</p>
 
             <div className=''>
                 { projects && projects.map((project) => {
