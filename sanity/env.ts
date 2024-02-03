@@ -15,7 +15,7 @@ export const projectId =
 //   'qe0yd7qt'
 // )
 
-export const useCdn = false
+export const useCdn = true
 
 function assertValue<T>(v: T | undefined, errorMessage: string): T {
   if (v === undefined) {
