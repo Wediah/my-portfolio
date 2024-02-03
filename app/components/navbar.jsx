@@ -42,7 +42,7 @@ function Navbar() {
 
             
 
-            <Link href="/"><Image className='' src={logo} alt="logo" width={60} height={60} /></Link>
+            <Link href="/"><Image className='w-auto h-auto' src={logo} alt="logo" width={60} height={60} /></Link>
 
             <div className=" flex md:hidden ">
                         <button
