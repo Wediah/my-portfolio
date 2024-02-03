@@ -23,7 +23,7 @@ export default async function page() {
                 { projects && projects.map((project) => {
                     return (
                         <div className='mt-10'>
-                            <h1>{project.title}</h1>
+                            <h1>{project.image}</h1>
                         </div>
                     )
                 })
