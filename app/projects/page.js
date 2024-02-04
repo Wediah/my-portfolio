@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import React from 'react'
 import { ImageUrlBuilder } from 'sanity';
 //import client from '/sanity/lib/client.ts'
