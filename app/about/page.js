@@ -88,7 +88,7 @@ function page() {
             </li>
         </ol>
 
-        <button className='text-orange-500 text-md font-medium'type="button" onClick={handleClick}>There is more about my experiences here.</button>
+        {/* <button className='text-orange-500 text-md font-medium'type="button" onClick={handleClick}>There is more about my experiences here.</button> */}
 
 
 
