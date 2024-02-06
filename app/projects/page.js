@@ -8,7 +8,7 @@ import { getAllProjects } from '../../sanity/sanity.query';
 export default async function page() {
     const projects = await getAllProjects();
 
-    //console.log(projects);
+    console.log(projects);
 
 
   return (
