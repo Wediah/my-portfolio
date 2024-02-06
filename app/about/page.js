@@ -3,19 +3,26 @@ import React from 'react'
 
 function page() {
 
-  const onButtonClick = () => {
-    fetch('WediahEmmanuelresume.docx').then(response => {
-        response.blob().then(blob => {
+//   const onClick = () => {
 
-            const fileURL = window.URL.createObjectURL(blob);
 
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'WediahEmmanuelresume.docx';
-            alink.click();
-        })
-    })
-}
+    // fetch('WediahEmmanuelresume.docx').then(response => {
+    //     response.blob().then(blob => {
+
+    //         const fileURL = window.URL.createObjectURL(blob);
+
+    //         let alink = document.createElement('a');
+    //         alink.href = fileURL;
+    //         alink.download = 'WediahEmmanuelresume.docx';
+    //         alink.click();
+    //     })
+    // })
+// }
+
+    const handleClick = async () => {
+      const response = await fetch('/api/file');
+      const blob = await response.blob();
+    };
 
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
@@ -81,7 +88,8 @@ function page() {
             </li>
         </ol>
 
-        <p className='text-orange-500 text-md font-medium' >There is more about my experiences here.</p>
+        <button className='text-orange-500 text-md font-medium'type="button" onClick={handleClick}>There is more about my experiences here.</button>
+
 
 
       </div>
