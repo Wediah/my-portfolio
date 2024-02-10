@@ -7,7 +7,6 @@ import { getAllProjects } from '../../sanity/sanity.query';
 
 export default async function page() {
     const projects = await getAllProjects();
-    console.log(projects);
 
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
