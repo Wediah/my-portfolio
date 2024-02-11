@@ -59,6 +59,7 @@ function page() {
                   <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Tailwind CSS</button>
                   <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Figma</button>
                   <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">PHP</button>
+                  <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Laravel</button>
                 </div>
             </li>
             <li class="mb-10 ms-4">
