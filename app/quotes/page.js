@@ -18,7 +18,7 @@ const quotes = [
 const QuotePage = () => {
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
-      <h1>These are some words from people, I deem wise...</h1>
+      <h1>These are some words from people, I deem wise</h1>
       <div className='flex flex-col gap-4 pt-4'>
         {quotes.map((quote, index) => (
             <div className='flex flex-col p-10' key={index}>
