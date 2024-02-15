@@ -21,7 +21,7 @@ const QuotePage = () => {
       <h1>These are some words from people, I deem wise...</h1>
       <div className='flex flex-col gap-4 pt-4'>
         {quotes.map((quote, index) => (
-            <div className='flex flex-col  rounded-md p-10' key={index}>
+            <div className='flex flex-col p-10' key={index}>
             <h3 className='text-orange-500'>{quote.author}</h3>
             <p>{quote.quote}</p>
             <hr className=''/>
