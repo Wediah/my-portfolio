@@ -1,7 +1,6 @@
 
 import React from 'react'
-import { ImageUrlBuilder } from 'sanity';
-//import client from '/sanity/lib/client.ts'
+import Image from 'next/image';
 import { getAllProjects } from '../../sanity/sanity.query';
 
 
@@ -24,8 +23,7 @@ export default async function page() {
                         <div className='mt-10'>
                             <h1 className='text-6xl'>{project.title}</h1>
                             <p>{project.description}</p>
-                            <img src={project.image}></img>
-                            
+                            <a href={project.link}>Link to project</a>
                         </div>
                     )
                 })
