@@ -24,6 +24,7 @@ export default async function page() {
                         <div className='mt-10'>
                             <h1 className='text-6xl'>{project.title}</h1>
                             <p>{project.description}</p>
+                            <img src={project.image}></img>
                             
                         </div>
                     )
