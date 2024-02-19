@@ -2,14 +2,7 @@
 import React from 'react'
 import { ImageUrlBuilder } from 'sanity';
 //import client from '/sanity/lib/client.ts'
-import { SanityClient } from 'sanity';
-//import { getAllProjects } from '../../sanity/sanity.query';
-
-const client = SanityClient({
-    projectId: 'your-project-id',
-    dataset: 'production',
-    useCdn: true,
-});
+import { getAllProjects } from '../../sanity/sanity.query';
 
 
 export default async function page() {
