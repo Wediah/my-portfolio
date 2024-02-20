@@ -2,7 +2,6 @@
 import React from 'react'
 import Image from 'next/image';
 import { getAllProjects } from '../../sanity/sanity.query';
-import { urlFor } from '../../sanity/lib/image';
 
 
 export default async function page() {
@@ -23,9 +22,12 @@ export default async function page() {
                     return (
                         <a href={project.link}>
                             <div className='mt-10 w-52 md:w-80 dark:bg-gray-900 bg-gray-300 rounded-md p-4'>
-                                <Image src={urlFor(project.Projectimage).url()} alt='project image' width={200} height={200}/>
+                                <Image src={project.Projectimage.image} alt='project image' width={200} height={300}/>
                                 <h1 className='text-2xl font-bold'>{project.title}</h1>
-                                <p className='text-sm pt-2'>{project.description}</p>
+                                <p className='text-sm py-2'>{project.description}</p>
+                            </div>
+                            <div>
+                                <button>{project.tools}</button>
                             </div>
                         </a>
                     )

@@ -19,12 +19,25 @@ export default {
         type: "url",
         },
         {
-        name: "Projectimage",
+        name: "ProjectImage",
         title: "Project Image",
         type: "image",
         options: {
             hotspot: true,
         },
+        fields: [
+            {
+                name: "alt",
+                title: "Alt",
+                type: "string",
+            },
+        ],
+        },
+        {
+            name: "tools",
+            title: "Tools",
+            type: "array",
+            of: [{type: 'string'}]
         },
     ],
 }
