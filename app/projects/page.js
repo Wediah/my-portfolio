@@ -17,14 +17,15 @@ export default async function page() {
 
             
 
-            <div className=''>
+            <div className='flex flex-col md:flex-row flex-wrap gap-3' >
                 { projects && projects.map((project) => {
                     return (
-                        <div className='mt-10'>
-                            <h1 className='text-6xl'>{project.title}</h1>
-                            <p>{project.description}</p>
-                            <a href={project.link}>Link to project</a>
-                        </div>
+                        <a href={project.link}>
+                            <div className='mt-10 w-52 md:w-80 dark:bg-gray-900 bg-gray-300 rounded-md p-4'>
+                                <h1 className='text-2xl font-bold'>{project.title}</h1>
+                                <p className='text-sm pt-2'>{project.description}</p>
+                            </div>
+                        </a>
                     )
                 })
                 }  
