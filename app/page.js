@@ -19,8 +19,8 @@ export default async function Home() {
           <PiHandWavingLight className="text-white font-medium text-md"/> Welcome to my website. 
         </button>
         <p className="pt-5 text-md">
-          I'm Wediah Emmanuel. A Software Engineer from Ghana. <br />
-          On this website, you'll find my projects, blog posts and more.
+          I&apos;m Wediah Emmanuel. A Software Engineer from Ghana. <br />
+          On this website, you&apos;ll find my projects, blog posts and more.
         </p>
         <div className="flex flex-row gap-2">
           <a href="https://github.com/Wediah">
