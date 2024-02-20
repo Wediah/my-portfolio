@@ -40,10 +40,10 @@ export default async function Home() {
           </a>
         </div>
 
-        <div className="md:pt-32 pt-28">
+        <div className="md:pt-20 pt-28">
           <h1 className="text-2xl font-medium text-gray-700">Featured Projects</h1>
 
-          <div className='flex flex-col md:flex-row flex-wrap gap-3' >
+          <div className='flex flex-col md:flex-row flex-wrap gap-3 pb-4' >
                 { projects && projects.slice(0, 3).map((project) => {
                     return (
                         <a href={project.link}>
