@@ -5,10 +5,13 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { RiTwitterXLine } from "react-icons/ri";
 import { IoLogoInstagram } from "react-icons/io";
 import { IoMailOutline } from "react-icons/io5";
+import { getAllProjects } from '../sanity/sanity.query';
 
 
 
-export default function Home() {
+export default async function Home() {
+  const projects = await getAllProjects();
+
   return (
     <main className="flex min-h-screen px-4 md:px-32 container mx-auto ">
       <div className="md:pt-32 pt-28">
@@ -39,6 +42,28 @@ export default function Home() {
 
         <div className="md:pt-32 pt-28">
           <h1 className="text-2xl font-medium text-gray-700">Featured Projects</h1>
+
+          <div className='flex flex-col md:flex-row flex-wrap gap-3' >
+                { projects && projects.slice(0, 3).map((project) => {
+                    return (
+                        <a href={project.link}>
+                            <div className='mt-10 w-52 md:w-80 dark:bg-gray-900 bg-gray-300 rounded-md p-4'>
+                                {/* <Image src={project.image.url} alt={project.image.alt} width={200} height={300}/> */}
+                                <h1 className='text-2xl font-bold'>{project.title}</h1>
+                                <p className='text-sm py-2'>{project.description}</p>
+                                <div className='flex flex-row flex-wrap gap-2'>
+                                    {project.tools.map((tool, index) => (
+                                        <button key={index} className='text-orange-500 bg-gray-300 dark:bg-gray-800 rounded-md p-1 text-sm'>
+                                            {tool}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                        </a>
+                    )
+                })
+                }  
+            </div>
         </div>
       </div>
     </main>
