@@ -10,7 +10,8 @@ export async function getAllProjects() {
         link, 
         Projectimage{
             asset->{url},
-        }
+        },
+        tools
     }`
     );
 }

@@ -22,12 +22,16 @@ export default async function page() {
                     return (
                         <a href={project.link}>
                             <div className='mt-10 w-52 md:w-80 dark:bg-gray-900 bg-gray-300 rounded-md p-4'>
-                                <Image src={project.Projectimage.image} alt='project image' width={200} height={300}/>
+                                <Image  alt='project image' width={200} height={300}/>
                                 <h1 className='text-2xl font-bold'>{project.title}</h1>
                                 <p className='text-sm py-2'>{project.description}</p>
-                            </div>
-                            <div>
-                                <button>{project.tools}</button>
+                                <div className='flex flex-row flex-wrap gap-2'>
+                                    {project.tools.map((tool, index) => (
+                                        <button key={index} className='text-orange-500 bg-gray-300 dark:bg-gray-800 rounded-md p-1 text-sm'>
+                                            {tool}
+                                        </button>
+                                    ))}
+                                </div>
                             </div>
                         </a>
                     )
