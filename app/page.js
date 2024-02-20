@@ -44,10 +44,10 @@ export default async function Home() {
           <h1 className="text-2xl font-medium text-gray-700">Featured Projects</h1>
 
           <div className='flex flex-col md:flex-row flex-wrap gap-3 pb-4' >
-                { projects && projects.slice(0, 3).map((project) => {
+                { projects && projects.slice(0, 3).map((project, index) => {
                     return (
-                        <a href={project.link}>
-                            <div className='mt-10 w-52 md:w-80 dark:bg-gray-900 bg-gray-300 rounded-md p-4'>
+                        <a key={index} href={project.link}>
+                            <div  className='mt-10 w-52 md:w-80 dark:bg-gray-900 bg-gray-300 rounded-md p-4'>
                                 {/* <Image src={project.image.url} alt={project.image.alt} width={200} height={300}/> */}
                                 <h1 className='text-2xl font-bold'>{project.title}</h1>
                                 <p className='text-sm py-2'>{project.description}</p>
