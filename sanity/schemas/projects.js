@@ -19,7 +19,7 @@ export default {
         type: "url",
         },
         {
-        name: "image",
+        name: "Projectimage",
         title: "Project Image",
         type: "image",
         options: {
