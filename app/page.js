@@ -47,7 +47,7 @@ export default async function Home() {
                 { projects && projects.slice(0, 3).map((project, index) => {
                     return (
                         <a key={index} href={project.link}>
-                            <div  className='mt-10 w-4/5 md:w-2/4 dark:bg-gray-900 bg-gray-300 rounded-md p-4'>
+                            <div  className='mt-10 w-4/5 md:w-1/3 dark:bg-gray-900 bg-gray-300 rounded-md p-4'>
                                 {/* <Image src={project.image.url} alt={project.image.alt} width={200} height={300}/> */}
                                 <h1 className='text-2xl font-bold'>{project.title}</h1>
                                 <p className='text-sm py-2'>{project.description}</p>
