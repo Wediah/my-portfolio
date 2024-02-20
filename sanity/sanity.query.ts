@@ -8,9 +8,7 @@ export async function getAllProjects() {
         title, 
         description, 
         link, 
-        Projectimage{
-            asset->{url},
-        },
+        Projectimage {alt, "image":asset->url},
         tools
     }`
     );
