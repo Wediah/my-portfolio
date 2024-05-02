@@ -31,7 +31,7 @@ function page() {
         Get to know me
       </h1>
       <p className='pt-5 w-9/12'>
-        Hello, I&apos;m Emmanuel Wediah,a student at <a className='text-orange-500' href='https://atu.edu.gh/'>Accra Technical Universtity</a> studing Computer Science. Currently, my main focus is frontend web development as well as backend development with Laravel and PHP. I look to becoming an expect in artificial intelligence and machine learning in the near future. <br/>
+        Hello, I&apos;m Emmanuel Wediah,a student at <a className='text-orange-500' href='https://atu.edu.gh/'>Accra Technical Universtity</a> studing Computer Science. Currently, my main focus is backend development with Laravel and PHP as well as frontend web development with React and JavaScript. I look to becoming an expect in artificial intelligence and machine learning in the near future. <br/>
         <br/> I&apos;m also a member of the <a className='text-orange-500' href='https://gdsc.community.dev/accra-technical-university/'>Google Developers Student Club (GDSC)</a> at my school, where I moderate and help organize events and workshops for students to learn about Google technologies. Aside programming, I enjoy <a className='text-orange-500' href='/jpegs'>photography</a> and <a className='text-orange-500' href='https://open.spotify.com/show/05qwLlxgmpwf2R9mvkuNSp?si=d93ea9532ed24c3d'>editing podcasts</a>.  
 
          <br/><br/>
