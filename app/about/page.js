@@ -50,7 +50,7 @@ function page() {
             <li class="mb-10 ms-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Nov. 2023 - Present</time>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Freelance Frontend Developer </h3>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Freelance Software Developer </h3>
                 <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Helping brands and individuals enhance their online presence by developing user-friendly and visual appealing websites. </p>
                 <div className='flex flex-row flex-wrap gap-3'>
                   <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">React</button>
