@@ -1,28 +1,19 @@
+"use client";
 import React from 'react'
 
 
 function page() {
 
-//   const onClick = () => {
 
+  const handleClick = () => {
+    const link = document.createElement('a');
+    link.href = '/WediahEmmanuelresume.docx';
+    link.download = 'WediahEmmanuelresume.docx';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
-    // fetch('WediahEmmanuelresume.docx').then(response => {
-    //     response.blob().then(blob => {
-
-    //         const fileURL = window.URL.createObjectURL(blob);
-
-    //         let alink = document.createElement('a');
-    //         alink.href = fileURL;
-    //         alink.download = 'WediahEmmanuelresume.docx';
-    //         alink.click();
-    //     })
-    // })
-// }
-
-    const handleClick = async () => {
-      const response = await fetch('/api/file');
-      const blob = await response.blob();
-    };
 
   return (
     <div className="min-h-screen px-4 md:px-32 container mx-auto">
@@ -89,7 +80,7 @@ function page() {
             </li>
         </ol>
 
-        {/* <button className='text-orange-500 text-md font-medium'type="button" onClick={handleClick}>There is more about my experiences here.</button> */}
+        <button className='text-orange-500 text-md font-medium'type="button" onClick={handleClick}>There is more about my experiences here.</button>
 
 
 
