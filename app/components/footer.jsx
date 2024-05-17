@@ -5,7 +5,6 @@ import logo from '/public/logo.svg'
 import { LuGithub } from "react-icons/lu";
 import { PiImages } from "react-icons/pi";
 import { BsChatSquareQuote } from "react-icons/bs";
-import { Transition } from '@headlessui/react'
 
 
 function Footer() {
