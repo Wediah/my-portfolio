@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { getAllProjects } from '../../sanity/sanity.query';
-import { urlFor } from '../../sanity/lib/image';
+
 
 
 export default async function page() {
