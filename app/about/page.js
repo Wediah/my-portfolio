@@ -37,7 +37,7 @@ function page() {
       <div className='pt-10 w-9/12'>
         <h1 className='font-medium text-gray-400 dark:text-gray-500'>My experiences</h1>
         
-        <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-5 mb-12">                  
+        <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-5 mb-12">
             <li class="mb-10 ms-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Nov. 2023 - Present</time>
@@ -50,6 +50,18 @@ function page() {
                   <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Figma</button>
                   <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">PHP</button>
                   <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Laravel</button>
+                </div>
+            </li>
+            <li class="mb-10 ms-4">
+                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct. 2024 - Present</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Full-Stack Developer - <a className='text-orange-500' href='https://www.linkedin.com/company/itspoynt/'>BackSlash Technologies Limited</a></h3>
+                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">At BackSlash, I work an on call engineer on <a className='text-orange-500' href="https://www.chem-pe.com/">Chem-pe</a>.</p>
+                <div className='flex flex-row flex-wrap gap-3'>
+                    <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">JavaScript</button>
+                    <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">React</button>
+                    <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">PHP</button>
+                    <button className="rounded-md bg-gray-200 dark:bg-gray-900 p-1">Laravel</button>
                 </div>
             </li>
             <li class="mb-10 ms-4">
